@@ -27,6 +27,8 @@
 
 /* `КНОПКА */
 .hero_button {
+  /* display: block; */
+  margin-bottom: 280px;
   margin-top: 38px;
   width: 200px;
   height: 52px;
@@ -147,11 +149,12 @@
 }
 
 #hero_image {
-  position: absolute;
-  right: 0;
+  /* display: none; */
+  position: relative;
   margin-top: 13px;
   width: var(--hero_image_size);
   height: var(--hero_image_size);
+  zoom: 105%;
 }
 
 
@@ -172,11 +175,14 @@
     align-items: center;
   }
   #hero_image {
+    display: block;
     position: relative;
     margin-top: 0px;
     zoom: 90%
   }
   #hero_text {
+    display: block;
+    position: relative;
     margin-top: 0px;
     width: 100%;
   }
@@ -193,6 +199,7 @@
     zoom: 90%
   }
   #hero_text {
+    padding-inline: 16px;
     margin-top: 0px;
     width: 100%;
   }

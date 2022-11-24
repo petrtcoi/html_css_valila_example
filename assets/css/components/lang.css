@@ -1,22 +1,15 @@
 .set_lang {
   display: block;
+  padding-top: 30px;
   width: 100%;
   text-align: right;
-  /* padding-inline: 21px; */
-  border: 1px solid black;
 }
 
-@media screen and (min-width: 300px) {
-  .set_lang {
-    padding-inline: 0px;
-  }
-}
 
 .lang_option {
   display: inline-block;
   margin-left: 11px;
   padding: 4px;
-  color: var(--font_color--light);
 }
 .lang_option.active {
   background-color: #FFFFFF;

@@ -5,9 +5,9 @@
   padding-inline: 21px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 300px) {
   .set_lang {
-    padding-inline: 66px;
+    padding-inline: 0px;
   }
 }
 

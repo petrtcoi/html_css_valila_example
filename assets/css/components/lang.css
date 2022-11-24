@@ -1,8 +1,9 @@
 .set_lang {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  padding-inline: 21px;
+  display: block;
+  width: 100%;
+  text-align: right;
+  /* padding-inline: 21px; */
+  border: 1px solid black;
 }
 
 @media screen and (min-width: 300px) {
@@ -12,8 +13,8 @@
 }
 
 .lang_option {
-  display: block;
-  margin-right: 11px;
+  display: inline-block;
+  margin-left: 11px;
   padding: 4px;
   color: var(--font_color--light);
 }

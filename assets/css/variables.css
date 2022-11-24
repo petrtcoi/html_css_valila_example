@@ -13,8 +13,6 @@
 
 
   /** размеры **/
-  --breakpont_small: 500px;
-  
-  --body_padding_top--small: 24px;
-  --body_padding_top--large: 36px;
+  --hero_image_size: 555px;
+
 }

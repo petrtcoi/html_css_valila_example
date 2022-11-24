@@ -1,0 +1,24 @@
+.set_lang {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding-inline: 21px;
+}
+
+@media screen and (min-width: 800px) {
+  .set_lang {
+    padding-inline: 66px;
+  }
+}
+
+.lang_option {
+  display: block;
+  margin-right: 11px;
+  padding: 4px;
+  color: var(--font_color--light);
+}
+.lang_option.active {
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  color: var(--accent_color);
+}

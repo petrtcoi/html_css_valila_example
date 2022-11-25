@@ -1,0 +1,96 @@
+/**
+*СЕТКА БЛОКА 
+**/
+#whatwedo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 114px;
+}
+#whatwedo__text {
+  width: calc(50% - 50px);
+}
+#whatwedo__pics {
+  width: calc(50% - 50px);
+}
+
+@media screen and (max-width: 1000px) {
+  #whatwedo__text {
+    width: 100%;
+  }
+  #whatwedo__pics {
+    margin-top: 37px;
+    margin-inline: auto;
+    width: 100%;
+    max-width: 700px;
+  }
+}
+
+/**
+* ТЕКСТОВЫЙ БЛОК
+**/
+#whatwedo .h2_block {
+  margin-top: 0;
+  text-align: left;
+}
+
+#whatwedo__text > p {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 940px) {
+  #whatwedo .h2_block {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #whatwedo__text p {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+  #whatwedo__text .invite_button {
+    margin-top: 12px;
+  }
+}
+
+/**
+* БЛОК С ИЗОБРАЖЕНИЯМИ
+**/
+#whatwedo__pics {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: stretch;
+  gap: 50px;
+}
+
+.whatwedo__item {
+  width: calc(50% - 40px);
+  padding: 10px;
+  box-sizing: border-box;
+  /* height: px; */
+}
+#whatwedo__pics  p {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1000px) {
+  .whatwedo__item {
+    box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+  }
+  .whatwedo__item > div {
+    margin-top: -20px;
+    
+  }
+  #whatwedo__pics {
+    gap: 50px;
+  }
+}

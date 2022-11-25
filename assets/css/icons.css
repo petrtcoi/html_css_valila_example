@@ -29,7 +29,7 @@
   color: #0962e8;
   font-size: 20px;
   padding: 6px;
-  background-color: #EFF9FF;
+  background-color: #eff9ff;
   border-radius: 50%;
 }
 .icon_filter:before {
@@ -37,7 +37,7 @@
   color: #0962e8;
   font-size: 20px;
   padding: 6px;
-  background-color: #EFF9FF;
+  background-color: #eff9ff;
   border-radius: 50%;
 }
 .icon_graph:before {
@@ -45,7 +45,7 @@
   color: #0962e8;
   font-size: 20px;
   padding: 6px;
-  background-color: #EFF9FF;
+  background-color: #eff9ff;
   border-radius: 50%;
 }
 .icon_activity:before {
@@ -53,27 +53,38 @@
   color: #0962e8;
   font-size: 20px;
   padding: 6px;
-  background-color: #EFF9FF;
+  background-color: #eff9ff;
   border-radius: 50%;
 }
 .icon_dude:before {
-  content: url(./../icons/icon_dude.png);
-  width: 37.6px;
-  height: 37.6px;
+  background-image: url(./../icons/icon_men.svg);
+  content: "";
+  background-size: 36px 36px;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
 }
 .icon_fish:before {
-  content: url(./../icons/icon_fish.png);
-  width: 37.6px;
-  height: 37.6px;
+  background-image: url("./../icons/icon_fish.svg");
+  content: "";
+  background-size: 36px 36px;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
 }
 .icon_money:before {
-  content: url(./../icons/icon_money.png);
-  width: 37.6px;
-  height: 37.6px;
+  background-image: url(./../icons/icon_money.svg);
+  content: "";
+  background-size: 36px 36px;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
 }
 .icon_heart:before {
-  content: url(./../icons/icon_heart.png);
-  width: 37.6px;
-  height: 37.6px;
+  background-image: url(./../icons/icon_heart.svg);
+  content: "";
+  background-size: 36px 36px;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
 }
-

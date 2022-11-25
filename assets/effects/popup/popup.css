@@ -1,0 +1,11 @@
+.popup {
+  transition: all 0.8s;
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.popup.inview {
+  opacity: 1;
+  transform: none;
+  transition-delay: 0.3s;
+}

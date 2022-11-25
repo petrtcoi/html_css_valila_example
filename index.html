@@ -11,10 +11,14 @@
     <link href="./assets/css/font-faces.css" type="text/css" rel="stylesheet" />
     <link href="./assets/css/icons.css" type="text/css" rel="stylesheet" />
     <link
+      href="./assets/effects/popup/popup.css"
+      type="text/css"
+      rel="stylesheet" />
+    <link
       href="./assets/css/shared/h2_block.css"
       type="text/css"
       rel="stylesheet" />
-      <link
+    <link
       href="./assets/css/shared/invite_button.css"
       type="text/css"
       rel="stylesheet" />
@@ -43,8 +47,27 @@
       type="text/css"
       rel="stylesheet" />
 
+    <link rel="icon" type="image/png" href="./assets/favicons/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/favicons/apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicons/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicons/favicon-16x16.png" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
     <title>HTML верстка пример</title>
   </head>
+
 
   <body>
     <!-- ЗАГОЛОВОК и HERO -->
@@ -287,7 +310,7 @@
       <!-- END КЛЮЧЕВЫЕ ПРОДУКТЫ -->
       <!-- START ЧТО МЫ ДЕЛАЕМ -->
       <div id="whatwedo">
-        <div id="whatwedo__text">
+        <div id="whatwedo__text"  class="popup">
           <h2 class="h2_block">
             <span class="accent_color">Представляем ценность</span><br />для
             броĸера и банĸа
@@ -299,27 +322,28 @@
           <button class="invite_button">Заказать демо</button>
         </div>
         <div id="whatwedo__pics">
-            <div class="whatwedo__item">
-              <div class="icon_money"></div>
-              <p>Эĸономим время и деньги на запусĸ digital сервисов</p>
-            </div>
-            <div class="whatwedo__item">
-              <div class="icon_dude"></div>
-              <p>Создаем канал привлечения новых клиентов</p>
-            </div>
-            <div class="whatwedo__item">
-              <div class="icon_fish"></div>
-              <p>Помогаем увеличить выручку путем запуска нового продукта</p>
-            </div>
-            <div class="whatwedo__item">
-              <div class="icon_heart"></div>
-              <p>Повышаем лояльность действующих клиентов</p>
-            </div>
-
+          <div class="whatwedo__item">
+            <div class="icon_money"></div>
+            <p>Эĸономим время и деньги на запусĸ digital сервисов</p>
+          </div>
+          <div class="whatwedo__item">
+            <div class="icon_dude"></div>
+            <p>Создаем канал привлечения новых клиентов</p>
+          </div>
+          <div class="whatwedo__item">
+            <div class="icon_fish"></div>
+            <p>Помогаем увеличить выручку путем запуска нового продукта</p>
+          </div>
+          <div class="whatwedo__item">
+            <div class="icon_heart"></div>
+            <p>Повышаем лояльность действующих клиентов</p>
+          </div>
         </div>
       </div>
       <!-- START ЧТО МЫ ДЕЛАЕМ -->
       <div style="height: 200px;"">
     </div>
+
+    <script src="./assets/effects/popup/popup.js"></script>
   </body>
 </html>

@@ -9,21 +9,21 @@
 html,
 body {
   display: block;
-  margin-top: 0px;
-  /* flex-direction: column; */
+  margin: 0px;
   overflow-x: hidden;
-  margin: 0 auto;
-  max-width: 1100px;
 }
 
 .section_colored_bg {
   background-color: var(--bg_color);
+  background-repeat: repeat-x;
 }
 .global_padding_wrapper {
+  margin: 0 auto;
+  max-width: 1100px;
   padding-inline: 60px;
 }
 @media screen and (max-width: 850px) {
   .global_padding_wrapper {
-    padding-inline: 60px;
+    padding-inline: 16px;
   }
 }

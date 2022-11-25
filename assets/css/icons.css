@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("./../icons/icomoon.ttf?bpy5uv") format("truetype"),
+    url("./../icons/icomoon.woff?bpy5uv") format("woff"),
+    url("./../icons/icomoon.svg?bpy5uv#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon_"],
+[class*=" icon_"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_setting:before {
+  content: "\e908";
+  color: #0962e8;
+  font-size: 20px;
+  padding: 6px;
+  background-color: #EFF9FF;
+  border-radius: 50%;
+}
+.icon_filter:before {
+  content: "\e909";
+  color: #0962e8;
+  font-size: 20px;
+  padding: 6px;
+  background-color: #EFF9FF;
+  border-radius: 50%;
+}
+.icon_graph:before {
+  content: "\e90b";
+  color: #0962e8;
+  font-size: 20px;
+  padding: 6px;
+  background-color: #EFF9FF;
+  border-radius: 50%;
+}
+.icon_activity:before {
+  content: "\e90c";
+  color: #0962e8;
+  font-size: 20px;
+  padding: 6px;
+  background-color: #EFF9FF;
+  border-radius: 50%;
+}
+.icon_dude:before {
+  content: url(./../icons/icon_dude.png);
+  width: 37.6px;
+  height: 37.6px;
+}
+.icon_fish:before {
+  content: url(./../icons/icon_fish.png);
+  width: 37.6px;
+  height: 37.6px;
+}
+.icon_money:before {
+  content: url(./../icons/icon_money.png);
+  width: 37.6px;
+  height: 37.6px;
+}
+.icon_heart:before {
+  content: url(./../icons/icon_heart.png);
+  width: 37.6px;
+  height: 37.6px;
+}
+

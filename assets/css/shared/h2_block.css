@@ -1,0 +1,23 @@
+/**
+* ЗАГОЛОВОК
+**/
+
+.h2_block {
+  margin-inline: auto;
+  display: block;
+}
+.h2_block,
+.h2_block > span {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 620px) {
+  .h2_block,
+  .h2_block > span {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+  }
+}

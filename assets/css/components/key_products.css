@@ -1,36 +1,17 @@
-/**
-* ЗАГОЛОВОК
-**/
-
-.key_products__header {
+#key_products {
   margin-top: 118px;
-  margin-inline: auto;
-  display: block;
 }
-.key_products__header,
-.key_products__header > span {
-  text-align: center;
-  font-size: 38px;
-  font-weight: 500;
-}
-
 @media screen and (max-width: 950px) and (min-width: 620px) {
-  .key_products__header {
+  #key_products {
     margin-top: 60px;
   }
 }
-@media screen and (max-width: 620px) {
-  .key_products__header,
-  .key_products__header > span {
+@media screen and (max-width: 620px)  {
+  #key_products {
     margin-top: 90px;
   }
-  .key_products__header,
-  .key_products__header > span {
-    text-align: center;
-    font-size: 24px;
-    font-weight: 500;
-  }
 }
+
 
 /** 
 * КАРТОЧКИ - LAYOUT
@@ -76,7 +57,6 @@
 .key_products__card div:has(picture) {
   display: flex;
   padding-top: 20px;
-  /* width: 50%; */
   flex-direction: column;
   justify-content: flex-end;
 }

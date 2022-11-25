@@ -43,7 +43,6 @@
   #advantages > .cards {
     margin-top: -230px;
     margin-inline: auto;
-    /* width: 500px; */
     justify-content: center;
     flex-wrap: wrap;
   }

@@ -1,5 +1,4 @@
 :root {
-  
   /** цвета **/
   --font_color: hsl(0, 0%, 0%);
   --font_color--light: hsl(217, 31%, 23%);
@@ -10,10 +9,10 @@
   --bg_color--light: hsl(205, 100%, 94%);
   --bg-color--transparent: hsla(0, 0, 0, 1);
 
-
-
   /** размеры **/
   --hero_image_size: 555px;
+}
 
-
+.accent_color {
+  color: var(--accent_color);
 }
